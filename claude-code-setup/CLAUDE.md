@@ -37,3 +37,4 @@ npx jest -t "test name"         # Run tests matching pattern
 - Jest for testing
 - express.js for backend framework
 - vue.js for frontend framework
+- nvmrc file for node version management
