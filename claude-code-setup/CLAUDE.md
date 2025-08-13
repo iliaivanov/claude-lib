@@ -4,6 +4,7 @@
 ```
 npm run:build                   # Build ESM and CJS versions
 npm run:lint                    # Run ESLint
+npm run:dev                     # Run development service 
 npm test                        # Run all tests
 npm run test:watch              # Run tests in watch mode
 npx jest path/to/file.test.ts   # Run specific test file
@@ -22,12 +23,20 @@ npx jest -t "test name"         # Run tests matching pattern
 
 ## Project Structure
 ```
-  /src              # Source code
-    /components     # Reusable components
-    /utils          # Utility functions
-    /types          # TypeScript type definitions
-  /tests            # Integration tests
-  /dist             # Build output
+├── backend/          # Node.js/Express API server
+│   ├── src/
+│   │   ├── controllers/   # Request handlers
+│   │   ├── services/      # Business logic & Ollama integration
+│   │   ├── prompts/       # AI prompt templates
+│   │   ├── utils/         # Utilities & validation
+│   │   └── types/         # TypeScript type definitions
+├── frontend/         # Vue.js application
+│   ├── src/
+│   │   ├── components/    # Vue components
+│   │   ├── services/      # API client
+│   │   ├── store/         # Pinia state management
+│   │   └── types/         # TypeScript types
+└── docker-compose.yml    # Container orchestration
 ```
 
 ## Dependencies
