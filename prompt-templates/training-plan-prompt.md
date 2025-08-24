@@ -23,6 +23,7 @@ You are an expert personal trainer and exercise physiologist. Create a comprehen
 4. Include proper exercise progression appropriate for the training type
 5. Consider the additional comments and modify the plan accordingly
 6. Ensure the workout is balanced and safe
+7. Include plank exercise into the cool-down of every training
 
 **Required Output Format:**
 ```
