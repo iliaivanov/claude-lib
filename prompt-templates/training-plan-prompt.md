@@ -74,5 +74,8 @@ WORKOUT NOTES:
   - **Functional**: Movement quality over load, stability challenges, real-world patterns
 - Adjust exercise selection, intensity, and volume based on training type and session length
 - Consider muscle group interactions and recovery needs for the specific training type
+- Exclude excersice 
+   - Landmine Row
+   - Single-Arm Landmine Row
 
 Generate the training plan now.
